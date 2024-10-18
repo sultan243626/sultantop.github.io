@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image:./sultan.jpg;
+    background-height: 500vh;
+    background-size: 1000% 1000%;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ANKET</title>
+</head>
+<body style="background-color: rgb(251, 193, 203);">
+    <div class="container">
+        <h1 style="text-align: center;">Anket</h1>
+        <form id="survey-form">
+            <div class="question">
+            
+                <label for="question1"><h1 style="text-align: center;">1.Web sitemin iyi ve kötü yanlarını yazarmısnız?</label><br>
+                <input type="text" id="question1" name="question1" required>
+            </div>
+            <div class="question">
+                <label for="question2"><h1 style="text-align: center;">;2.Web Sitemi begendinizmi?</label><br>
+                <select id="question2" name="question2"required>
+                    <option value="EVET">Evet harikaydı</option>
+                    <option value="HAYIR">Fena degildi</option>
+                    <option value="yaz">Biraz daha geliştirilebilir</option>
+                    
+                </select>
+            </div>
+            <div class="question">
+                <label><h1 style="text-align: center;">3.En çok hangi sayfamı beğendiniz?</label><br>
+                <input type="radio" id="activity1" name="activity" value="Ana Sayfa">
+                <label for="activity1">Ana Sayfa</label><br>
+                <input type="radio" id="activity2" name="activity" value="Hakkımda">
+                <label for="activity2">Hakkımda</label><br>
+                <input type="radio" id="activity3" name="activity" value="Projelerim">
+                <label for="activity3">Projeler</label>
+            </div>
+            <div style="text-align: center;">
+            <button type="submit">TIKLA</button> 
+            </div>
+        
+        </form>
+    </div>
+</body>
+</body>
+</html>
